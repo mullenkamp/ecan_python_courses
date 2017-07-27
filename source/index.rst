@@ -11,9 +11,9 @@ The structure of these courses/lessons are modeled after a series of online cour
 
 These courses include:
 
- * 'Python for geo-people <https://github.com/Python-for-geo-people/Course-information>'_
- * 'Automating GIS processes <https://automating-gis-processes.github.io/2016/>_
- * 'Introduction to Quantitative Geology  <https://github.com/Intro-Quantitative-Geology/Course-information>_
+ * `~Python for geo-people <https://github.com/Python-for-geo-people/Course-information>`_
+ * `Automating GIS processes <https://automating-gis-processes.github.io/2016/>`_
+ * `Introduction to Quantitative Geology  <https://github.com/Intro-Quantitative-Geology/Course-information>`_
 
 Course format
 -------------
