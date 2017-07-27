@@ -2,12 +2,12 @@
 Welcome to Python Courses for ECan Staff
 ===========================================
 
-These Python courses will teach you various Python skills helpful to ECan staff. These range from Python fundamentals, extracting data, data manipulations, scripting, GIS spatial processing, and more. Each course/lesson is a tutorial to learn specific Python topic(s). Certain parts of the course will use ECan internal datasets and databases, while others will use publically available datasets.
+These Python courses will teach you various Python skills helpful to ECan staff that need to do data processing and analysis. These range from Python fundamentals, extracting data, data manipulations, scripting, GIS spatial processing, and more. Each course/lesson is a tutorial to learn specific Python topic(s). Certain parts of the course will use ECan internal datasets and databases, while others will use publically available datasets.
 
 Credits
 --------
 
-The structure of these courses/lessons are modeled after a series of online courses written by Henrikki Tenkanen for the University of Helsinki. Additionally, the relevant content from the Helsinki courses will be used in our courses. 
+The structure of these courses/lessons are modeled after a series of great online courses written by Henrikki Tenkanen at the University of Helsinki. Additionally, the relevant content from the Helsinki courses will be used in our courses. 
 
 These courses include:
 
@@ -31,8 +31,8 @@ on the laboratory exercises, however the laboratory summary write-ups that you s
 
 .. admonition:: Step by step instructions with RDS!
 
-    The materials are written in a way that you can follow them step by step exactly as they are written, as long as you use the RDSProd03 internal server setup with all of the Python goodies.
-    If you work from your own computer, **you will need to install the necessary software and to adjust the file paths to the data** accordingly.
+    The materials are written in a way that you can follow them step by step exactly as they are written, as long as you use the RDSProd03 internal server setup that contains all of the Python goodies.
+    If you work from your own computer, **you will need to install the necessary software and adjust the file paths to the data** accordingly.
 
 .. admonition:: For teachers
 
