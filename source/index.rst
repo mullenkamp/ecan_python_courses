@@ -1,13 +1,19 @@
 
-.. figure:: img/Some_Global_text.png
-
-Welcome to Automating GIS processes course!
+Welcome to Python Courses for ECan Staff
 ===========================================
 
-**Automating GIS processes** -course teaches you how to do different GIS-related tasks in Python programming language. Each lesson is a tutorial with specific topic(s) where the aim is to learn
-how to solve common GIS-related problems and tasks using Python tools. In the lessons we use only publicly available data which can be used and downloaded by anyone anywhere. In this course,
-we assume that you know the basics of Python programming. If Python is not familiar to you, we recommend to start with our earlier course that focuses on learning the basics of Python
-from `geo-python.github.io <https://geo-python.github.io>`_.
+These Python courses will teach you various Python skills helpful to ECan staff. These range from Python fundamentals, extracting data, data manipulations, scripting, GIS spatial processing, and more. Each course/lesson is a tutorial to learn specific Python topic(s). Certain parts of the course will use ECan internal datasets and databases, while others will use publically available datasets.
+
+Credits
+--------
+
+The structure of these courses/lessons are modeled after a series of online courses written by Henrikki Tenkanen for the University of Helsinki. 
+
+These courses include:
+
+ * 'Python for geo-people <https://github.com/Python-for-geo-people/Course-information>'_
+ * 'Automating GIS processes <https://automating-gis-processes.github.io/2016/>_
+ * 'Introduction to Quantitative Geology  <https://github.com/Intro-Quantitative-Geology/Course-information>_
 
 Course format
 -------------
