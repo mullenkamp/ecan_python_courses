@@ -59,6 +59,7 @@ Course outlines
    :maxdepth: 2
    :caption: General information
 
+   course-info
    Installing_Anaconda
    License-terms
 

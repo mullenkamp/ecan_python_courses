@@ -1,47 +1,29 @@
 General info
 ============
 
-Course meetings in Period II
-----------------------------
-
-- Mondays 9-12, A113-A114, Physicum (31.10 - 12.12)
-- Work sessions on Thursdays 8-10, A111-112, Physicum (03.11 - 15.12)
-
-Instructors
+Instructor
 -----------
 
 **Lecturer**:
 
-* Henrikki Tenkanen
+* Mike Kittridge
 
-  * Office: A120, Physicum
-  * Email: *firstname.lastname@helsinki.fi*
-  * Phone: +358 50 4484436
+  * Office: ECan, 200 Tuam Street, Christchurch
+  * Email: *firstname.lastname@ecan.govt.nz*
+  * Phone: +64 27 4056695
 
 **Course assistant**:
 
-* Vuokko Heikinheimo
+* Matt Hansen
 
-  * Office: A120, Physicum
-  * Email: *firstname.lastname@helsinki.fi*
-  * Phone: +358 2941 50760
+  * Office: ECan, 200 Tuam Street, Christchurch
+  * Email: *firstname.lastname@ecan.govt.nz*
 
-Course websites
----------------
-
-- Course sites for Period I (Introduction to Python programming):
-
-  - Main course site: `<https://github.com/Python-for-geo-people>`_
-  - Pouta Blueprints site: `<https://pb.geo.helsinki.fi>`_
-
-- Automating GIS processes (Period II)
-
-  - Moodle page: `<https://moodle.helsinki.fi/course/view.php?id=21843>`_
 
 Textbooks
 ---------
 
-There are **no required textbooks** for this course. This course uses a wide range of sources for course information and the main textbooks are given below.
+There are **no required textbooks** for these courses. These courses use a wide range of sources for course information and the main textbooks are given below.
 
 - Recommended textbooks (in order of relevance):
 

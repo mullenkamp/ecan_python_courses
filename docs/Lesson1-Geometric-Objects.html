@@ -101,13 +101,13 @@
               
             
             
-              <p class="caption"><span class="caption-text">Course information</span></p>
+              <p class="caption"><span class="caption-text">General information</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="course-info.html">General info</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Installing_Anacondas_GIS.html">Installing Python + GIS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Installing_Anaconda.html">Installing Python</a></li>
 <li class="toctree-l1"><a class="reference internal" href="License-terms.html">License and terms of usage</a></li>
 </ul>
-<p class="caption"><span class="caption-text">Lesson 1</span></p>
+<p class="caption"><span class="caption-text">Course 1</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="Lesson1-Intro-Python-GIS.html">Introduction to Python GIS</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Geometric Objects - Spatial Data Model</a><ul>
@@ -439,7 +439,7 @@ of the line (centroid) straight from the LineString object itself</li>
 <span class="go">Length of our line: 52.46</span>
 
 <span class="gp">In [35]: </span><span class="k">print</span><span class="p">(</span><span class="s2">&quot;Centroid of our line: &quot;</span><span class="p">,</span> <span class="n">l_centroid</span><span class="p">)</span>
-<span class="go">(&#39;Centroid of our line: &#39;, &lt;shapely.geometry.point.Point object at 0x000000000844DA90&gt;)</span>
+<span class="go">(&#39;Centroid of our line: &#39;, &lt;shapely.geometry.point.Point object at 0x00000000088FA588&gt;)</span>
 
 <span class="gp">In [36]: </span><span class="k">print</span><span class="p">(</span><span class="s2">&quot;Type of the centroid:&quot;</span><span class="p">,</span> <span class="n">centroid_type</span><span class="p">)</span>
 <span class="go">(&#39;Type of the centroid:&#39;, &lt;class &#39;shapely.geometry.point.Point&#39;&gt;)</span>
@@ -569,7 +569,7 @@ Polygon</li>
 <li>Let&#8217;s see what we have now</li>
 </ul>
 <div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [57]: </span><span class="k">print</span><span class="p">(</span><span class="s2">&quot;Poly centroid: &quot;</span><span class="p">,</span> <span class="n">world_centroid</span><span class="p">)</span>
-<span class="go">(&#39;Poly centroid: &#39;, &lt;shapely.geometry.point.Point object at 0x00000000088BCEB8&gt;)</span>
+<span class="go">(&#39;Poly centroid: &#39;, &lt;shapely.geometry.point.Point object at 0x0000000008938940&gt;)</span>
 
 <span class="gp">In [58]: </span><span class="k">print</span><span class="p">(</span><span class="s2">&quot;Poly Area: &quot;</span><span class="p">,</span> <span class="n">world_area</span><span class="p">)</span>
 <span class="go">(&#39;Poly Area: &#39;, 64800.0)</span>
@@ -578,7 +578,7 @@ Polygon</li>
 <span class="go">(&#39;Poly Bounding Box: &#39;, (-180.0, -90.0, 180.0, 90.0))</span>
 
 <span class="gp">In [60]: </span><span class="k">print</span><span class="p">(</span><span class="s2">&quot;Poly Exterior: &quot;</span><span class="p">,</span> <span class="n">world_ext</span><span class="p">)</span>
-<span class="go">(&#39;Poly Exterior: &#39;, &lt;shapely.geometry.polygon.LinearRing object at 0x00000000088E9160&gt;)</span>
+<span class="go">(&#39;Poly Exterior: &#39;, &lt;shapely.geometry.polygon.LinearRing object at 0x0000000008938B38&gt;)</span>
 
 <span class="gp">In [61]: </span><span class="k">print</span><span class="p">(</span><span class="s2">&quot;Poly Exterior Length: &quot;</span><span class="p">,</span> <span class="n">world_ext_length</span><span class="p">)</span>
 <span class="go">(&#39;Poly Exterior Length: &#39;, 1080.0)</span>
@@ -656,16 +656,16 @@ to create one using Shapely.</p>
 <li>Let&#8217;s see what do we have:</li>
 </ul>
 <div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [75]: </span><span class="k">print</span><span class="p">(</span><span class="s2">&quot;MultiPoint:&quot;</span><span class="p">,</span> <span class="n">multi_point</span><span class="p">)</span>
-<span class="go">(&#39;MultiPoint:&#39;, &lt;shapely.geometry.multipoint.MultiPoint object at 0x00000000088E9710&gt;)</span>
+<span class="go">(&#39;MultiPoint:&#39;, &lt;shapely.geometry.multipoint.MultiPoint object at 0x000000000896E128&gt;)</span>
 
 <span class="gp">In [76]: </span><span class="k">print</span><span class="p">(</span><span class="s2">&quot;MultiLine: &quot;</span><span class="p">,</span> <span class="n">multi_line</span><span class="p">)</span>
-<span class="go">(&#39;MultiLine: &#39;, &lt;shapely.geometry.multilinestring.MultiLineString object at 0x00000000088E9748&gt;)</span>
+<span class="go">(&#39;MultiLine: &#39;, &lt;shapely.geometry.multilinestring.MultiLineString object at 0x000000000896E1D0&gt;)</span>
 
 <span class="gp">In [77]: </span><span class="k">print</span><span class="p">(</span><span class="s2">&quot;Bounding box: &quot;</span><span class="p">,</span> <span class="n">east_poly_box</span><span class="p">)</span>
-<span class="go">(&#39;Bounding box: &#39;, &lt;shapely.geometry.polygon.Polygon object at 0x00000000088E98D0&gt;)</span>
+<span class="go">(&#39;Bounding box: &#39;, &lt;shapely.geometry.polygon.Polygon object at 0x000000000896E320&gt;)</span>
 
 <span class="gp">In [78]: </span><span class="k">print</span><span class="p">(</span><span class="s2">&quot;MultiPoly: &quot;</span><span class="p">,</span> <span class="n">multi_poly</span><span class="p">)</span>
-<span class="go">(&#39;MultiPoly: &#39;, &lt;shapely.geometry.multipolygon.MultiPolygon object at 0x00000000088E9940&gt;)</span>
+<span class="go">(&#39;MultiPoly: &#39;, &lt;shapely.geometry.multipolygon.MultiPolygon object at 0x000000000896E080&gt;)</span>
 </pre></div>
 </div>
 <p>We can see that the outputs are similar to the basic geometric objects
@@ -701,7 +701,7 @@ features of those points, lines or polygons.</p>
 <li>Let&#8217;s see what do we have:</li>
 </ul>
 <div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [84]: </span><span class="k">print</span><span class="p">(</span><span class="s2">&quot;Convex hull of the points: &quot;</span><span class="p">,</span> <span class="n">convex</span><span class="p">)</span>
-<span class="go">(&#39;Convex hull of the points: &#39;, &lt;shapely.geometry.polygon.Polygon object at 0x00000000088E9C88&gt;)</span>
+<span class="go">(&#39;Convex hull of the points: &#39;, &lt;shapely.geometry.polygon.Polygon object at 0x000000000896E710&gt;)</span>
 
 <span class="gp">In [85]: </span><span class="k">print</span><span class="p">(</span><span class="s2">&quot;Number of lines in MultiLineString:&quot;</span><span class="p">,</span> <span class="n">lines_count</span><span class="p">)</span>
 <span class="go">(&#39;Number of lines in MultiLineString:&#39;, 2)</span>
