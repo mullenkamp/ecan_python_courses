@@ -21,7 +21,7 @@ Following steps have been tested to work on Windows 7, 8, and 10 with Anaconda3 
 `Download Anaconda installer (64 bit) <https://www.continuum.io/downloads>`_ for Windows.
 
 Install Anaconda to your computer by double clicking the installer and install it into a directory you want.
-Install for **Just Me** then use the desination folder **:file:`C:\\Anaconda2_64bit`**. You will not need admin rights and you will be able to install additional Python packages as needed.
+Install for **Just Me** then use the desination folder **C:\\Anaconda2_64bit**. You will not need admin rights and you will be able to install additional Python packages as needed.
 
 Test that the Anaconda´s package manage called ``conda`` works by `opening a command prompt <http://www.howtogeek.com/194041/how-to-open-the-command-prompt-as-administrator-in-windows-8.1/>`_
 and running command ``conda --version``.
