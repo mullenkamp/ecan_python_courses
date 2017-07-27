@@ -34,10 +34,6 @@ Install additional packages with conda (and pip) by running in command prompt fo
     conda install -y psycopg2 matplotlib bokeh holoviews seaborn xarray networkx pymssql bottleneck dask netCDF4
     conda install -y -c conda-forge basemap pyproj fiona shapely pyproj rtree geopandas rasterio cartopy
     conda install -y -c ioam geoviews
-    
-    # Following ones will be installed using pip as we want to install the
-    # development version of the packages with more features
-
     pip install pycrs lxml
 
 Let's also upgrade few packages:
@@ -103,32 +99,32 @@ In most cases this approach works but sometimes you get errors like (example whe
 
         anaconda search -t conda shapely
 
-Okey, so conda couldn't find the shapely module from the typical channel it uses for downloading the module.
+Okay, so conda couldn't find the shapely module from the typical channel it uses for downloading the module.
 
-..
-	Alternative way to install if typical doesn't work
-	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-	How to find a way to install a module if it cannot be installed on a typical way?
-	Well, the answer is the same is in many other cases nowadays, **Google it!**
+Alternative way to install if typical doesn't work
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-	Let's find our way to install the Shapely module by typing following query to Google:
+How to find a way to install a module if it cannot be installed on a typical way?
+Well, the answer is the same is in many other cases nowadays, **Google it!**
 
-	.. image:: img/google_query_conda.PNG
+Let's find our way to install the Shapely module by typing following query to Google:
 
-	Okey, we have different pages showing how to install Shapely using conda package manager.
+.. image:: img/google_query_conda.PNG
 
-	**Which one of them is the correct one to use?**
+Okay, we have different pages showing how to install Shapely using conda package manager.
 
-	We need to check the operating system banners and if you find a logo of the operating system of your computer,
-	that is the one to use! Thus, in our case the first page that Google gives does not work in Windows but the second one does, as it has Windows logo on it:
+**Which one of them is the correct one to use?**
 
-	.. image:: img/conda_shapely_windows.PNG
+We need to check the operating system banners and if you find a logo of the operating system of your computer,
+that is the one to use! Thus, in our case the first page that Google gives does not work in Windows but the second one does, as it has Windows logo on it:
 
-	From here we can get the correct installation command for conda and it works!
+.. image:: img/conda_shapely_windows.PNG
 
-	.. image:: img/install_shapely.PNG
+From here we can get the correct installation command for conda and it works!
 
-	You can follow these steps similarly for all of the other Python modules that you are interested to install.
+.. image:: img/install_shapely.PNG
+
+You can follow these steps similarly for all of the other Python modules that you are interested to install.
 
 
