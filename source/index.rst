@@ -59,8 +59,7 @@ Course outlines
    :maxdepth: 2
    :caption: General information
 
-   course-info
-   Installing_Anacondas_GIS
+   Installing_Anaconda
    License-terms
 
 .. toctree::
