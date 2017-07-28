@@ -73,7 +73,7 @@ or moral rights may limit how you use the material.
 Code snippets / software
 ------------------------
 
-Except where otherwise noted, the example programs, code snippets and other software provided by the Automating GIS processes -course are made
+Except where otherwise noted, the example programs, code snippets and other software provided by the Python for ECan are made
 available under the **GNU GPLv3 license** (read licence `here <https://www.gnu.org/licenses/gpl.html>`_.
 
 

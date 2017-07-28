@@ -1,4 +1,4 @@
-Introduction to Python GIS
+Introduction to Python
 ==========================
 
 General overview of the latter part of the course
