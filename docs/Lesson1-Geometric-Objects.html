@@ -19,7 +19,7 @@
     </script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Geometric Objects - Spatial Data Model &mdash; Python for ECan 1 documentation</title>
+  <title>Geometric Objects - Spatial Data Model &mdash; ECan Python 1 documentation</title>
   
 
   
@@ -46,9 +46,9 @@
         <link rel="index" title="Index"
               href="genindex.html"/>
         <link rel="search" title="Search" href="search.html"/>
-    <link rel="top" title="Python for ECan 1 documentation" href="index.html"/>
+    <link rel="top" title="ECan Python 1 documentation" href="index.html"/>
         <link rel="next" title="Exercise 1" href="Exercise-1.html"/>
-        <link rel="prev" title="Introduction to Python GIS" href="Lesson1-Intro-Python-GIS.html"/> 
+        <link rel="prev" title="License and terms of usage" href="License-terms.html"/> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -67,7 +67,7 @@
           
 
           
-            <a href="index.html" class="icon icon-home"> Python for ECan
+            <a href="index.html" class="icon icon-home"> ECan Python
           
 
           
@@ -109,7 +109,6 @@
 </ul>
 <p class="caption"><span class="caption-text">Course 1</span></p>
 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="Lesson1-Intro-Python-GIS.html">Introduction to Python GIS</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Geometric Objects - Spatial Data Model</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#overview-of-geometric-objects-and-shapely-module">Overview of geometric objects and Shapely -module</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#point">Point</a><ul>
@@ -146,7 +145,7 @@
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="index.html">Python for ECan</a>
+          <a href="index.html">ECan Python</a>
         
       </nav>
 
@@ -439,7 +438,7 @@ of the line (centroid) straight from the LineString object itself</li>
 <span class="go">Length of our line: 52.46</span>
 
 <span class="gp">In [35]: </span><span class="k">print</span><span class="p">(</span><span class="s2">&quot;Centroid of our line: &quot;</span><span class="p">,</span> <span class="n">l_centroid</span><span class="p">)</span>
-<span class="go">(&#39;Centroid of our line: &#39;, &lt;shapely.geometry.point.Point object at 0x00000000088FA588&gt;)</span>
+<span class="go">(&#39;Centroid of our line: &#39;, &lt;shapely.geometry.point.Point object at 0x00000000089D9588&gt;)</span>
 
 <span class="gp">In [36]: </span><span class="k">print</span><span class="p">(</span><span class="s2">&quot;Type of the centroid:&quot;</span><span class="p">,</span> <span class="n">centroid_type</span><span class="p">)</span>
 <span class="go">(&#39;Type of the centroid:&#39;, &lt;class &#39;shapely.geometry.point.Point&#39;&gt;)</span>
@@ -569,7 +568,7 @@ Polygon</li>
 <li>Let&#8217;s see what we have now</li>
 </ul>
 <div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [57]: </span><span class="k">print</span><span class="p">(</span><span class="s2">&quot;Poly centroid: &quot;</span><span class="p">,</span> <span class="n">world_centroid</span><span class="p">)</span>
-<span class="go">(&#39;Poly centroid: &#39;, &lt;shapely.geometry.point.Point object at 0x0000000008938940&gt;)</span>
+<span class="go">(&#39;Poly centroid: &#39;, &lt;shapely.geometry.point.Point object at 0x0000000008A259E8&gt;)</span>
 
 <span class="gp">In [58]: </span><span class="k">print</span><span class="p">(</span><span class="s2">&quot;Poly Area: &quot;</span><span class="p">,</span> <span class="n">world_area</span><span class="p">)</span>
 <span class="go">(&#39;Poly Area: &#39;, 64800.0)</span>
@@ -578,7 +577,7 @@ Polygon</li>
 <span class="go">(&#39;Poly Bounding Box: &#39;, (-180.0, -90.0, 180.0, 90.0))</span>
 
 <span class="gp">In [60]: </span><span class="k">print</span><span class="p">(</span><span class="s2">&quot;Poly Exterior: &quot;</span><span class="p">,</span> <span class="n">world_ext</span><span class="p">)</span>
-<span class="go">(&#39;Poly Exterior: &#39;, &lt;shapely.geometry.polygon.LinearRing object at 0x0000000008938B38&gt;)</span>
+<span class="go">(&#39;Poly Exterior: &#39;, &lt;shapely.geometry.polygon.LinearRing object at 0x0000000008A25C50&gt;)</span>
 
 <span class="gp">In [61]: </span><span class="k">print</span><span class="p">(</span><span class="s2">&quot;Poly Exterior Length: &quot;</span><span class="p">,</span> <span class="n">world_ext_length</span><span class="p">)</span>
 <span class="go">(&#39;Poly Exterior Length: &#39;, 1080.0)</span>
@@ -656,16 +655,16 @@ to create one using Shapely.</p>
 <li>Let&#8217;s see what do we have:</li>
 </ul>
 <div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [75]: </span><span class="k">print</span><span class="p">(</span><span class="s2">&quot;MultiPoint:&quot;</span><span class="p">,</span> <span class="n">multi_point</span><span class="p">)</span>
-<span class="go">(&#39;MultiPoint:&#39;, &lt;shapely.geometry.multipoint.MultiPoint object at 0x000000000896E128&gt;)</span>
+<span class="go">(&#39;MultiPoint:&#39;, &lt;shapely.geometry.multipoint.MultiPoint object at 0x0000000008A42208&gt;)</span>
 
 <span class="gp">In [76]: </span><span class="k">print</span><span class="p">(</span><span class="s2">&quot;MultiLine: &quot;</span><span class="p">,</span> <span class="n">multi_line</span><span class="p">)</span>
-<span class="go">(&#39;MultiLine: &#39;, &lt;shapely.geometry.multilinestring.MultiLineString object at 0x000000000896E1D0&gt;)</span>
+<span class="go">(&#39;MultiLine: &#39;, &lt;shapely.geometry.multilinestring.MultiLineString object at 0x0000000008A422E8&gt;)</span>
 
 <span class="gp">In [77]: </span><span class="k">print</span><span class="p">(</span><span class="s2">&quot;Bounding box: &quot;</span><span class="p">,</span> <span class="n">east_poly_box</span><span class="p">)</span>
-<span class="go">(&#39;Bounding box: &#39;, &lt;shapely.geometry.polygon.Polygon object at 0x000000000896E320&gt;)</span>
+<span class="go">(&#39;Bounding box: &#39;, &lt;shapely.geometry.polygon.Polygon object at 0x0000000008A42470&gt;)</span>
 
 <span class="gp">In [78]: </span><span class="k">print</span><span class="p">(</span><span class="s2">&quot;MultiPoly: &quot;</span><span class="p">,</span> <span class="n">multi_poly</span><span class="p">)</span>
-<span class="go">(&#39;MultiPoly: &#39;, &lt;shapely.geometry.multipolygon.MultiPolygon object at 0x000000000896E080&gt;)</span>
+<span class="go">(&#39;MultiPoly: &#39;, &lt;shapely.geometry.multipolygon.MultiPolygon object at 0x0000000008A424E0&gt;)</span>
 </pre></div>
 </div>
 <p>We can see that the outputs are similar to the basic geometric objects
@@ -701,7 +700,7 @@ features of those points, lines or polygons.</p>
 <li>Let&#8217;s see what do we have:</li>
 </ul>
 <div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [84]: </span><span class="k">print</span><span class="p">(</span><span class="s2">&quot;Convex hull of the points: &quot;</span><span class="p">,</span> <span class="n">convex</span><span class="p">)</span>
-<span class="go">(&#39;Convex hull of the points: &#39;, &lt;shapely.geometry.polygon.Polygon object at 0x000000000896E710&gt;)</span>
+<span class="go">(&#39;Convex hull of the points: &#39;, &lt;shapely.geometry.polygon.Polygon object at 0x0000000008A427B8&gt;)</span>
 
 <span class="gp">In [85]: </span><span class="k">print</span><span class="p">(</span><span class="s2">&quot;Number of lines in MultiLineString:&quot;</span><span class="p">,</span> <span class="n">lines_count</span><span class="p">)</span>
 <span class="go">(&#39;Number of lines in MultiLineString:&#39;, 2)</span>
@@ -739,7 +738,7 @@ each other.</p>
         <a href="Exercise-1.html" class="btn btn-neutral float-right" title="Exercise 1" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="Lesson1-Intro-Python-GIS.html" class="btn btn-neutral" title="Introduction to Python GIS" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="License-terms.html" class="btn btn-neutral" title="License and terms of usage" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -749,7 +748,7 @@ each other.</p>
   <div role="contentinfo">
     <p>
         &copy; Copyright 2017 Mike Kittridge.
-      Last updated on Jul 28, 2017.
+      Last updated on Nov 26, 2017.
 
     </p>
   </div>

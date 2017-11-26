@@ -81,7 +81,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'Python for ECan'
+project = 'ECan Python'
 copyright = '2017 Mike Kittridge'
 author = 'Mike Kittridge'
 

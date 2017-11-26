@@ -1,8 +1,8 @@
 
-Welcome to Python Courses for ECan Staff
+Welcome to ECan Python Courses
 ===========================================
 
-These Python courses will teach you various Python skills helpful to ECan staff that need to do data processing and analysis. These range from Python fundamentals, extracting data, data manipulations, scripting, GIS spatial processing, and more. Each course/lesson is a tutorial to learn specific Python topic(s). Certain parts of the course will use ECan internal datasets and databases, while others will use publically available datasets.
+These Python courses will teach you various Python skills helpful to environmental scientists that need to do data processing and analysis. These range from Python fundamentals, extracting data, data manipulations, scripting, GIS spatial processing, and more. Each course/lesson is a tutorial to learn specific Python topic(s). Certain parts of the course will use ECan internal datasets and databases, while others will use publically available datasets.
 
 Credits
 --------
