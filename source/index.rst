@@ -2,12 +2,12 @@
 Welcome to ECan Python Courses
 ===========================================
 
-These Python courses will teach you various Python skills helpful to environmental scientists that need to do data processing and analysis. These range from Python fundamentals, extracting data, data manipulations, scripting, GIS spatial processing, and more. Each course/lesson is a tutorial to learn specific Python topic(s). Certain parts of the course will use ECan internal datasets and databases, while others will use publically available datasets.
+These Python courses will teach you various Python skills helpful to environmental scientists that need to do data processing and analysis. These range from Python fundamentals, extracting data, data manipulations, scripting, GIS spatial processing, and more. Each course/lesson is a tutorial to learn specific Python topic(s). Certain parts of the course will use ECan internal datasets and databases, while others will use publicly available datasets.
 
 Credits
 --------
 
-The structure of these courses/lessons are modeled after a series of great online courses written by Henrikki Tenkanen at the University of Helsinki. Additionally, the relevant content from the Helsinki courses will be used in our courses. 
+The structure of these courses/lessons are modeled after a series of great online courses written by Henrikki Tenkanen at the University of Helsinki. Additionally, the relevant content from the Helsinki courses will be used in our courses.
 
 These courses include:
 
@@ -46,7 +46,7 @@ Course topics
 The course topics are the following:
 
  * Course 1: Python fundamentals
- * Course 2: Accessing internal ECan data 
+ * Course 2: Accessing internal ECan data
  * Course 3: Working with Arrays and DataFrames (tables)
  * Course 4: Visualization
  * Course 5: GIS and Python
@@ -70,5 +70,3 @@ Course outlines
    Lesson1-Intro-Python-GIS
    Lesson1-Geometric-Objects
    Exercise-1
-
-
